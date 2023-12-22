@@ -8,6 +8,12 @@ A container is an isolated environment for your code. This means that acontainer
 <p align="center">Differences between VM and Container Deployment </p>
 
 ## What is Container Security?
+As organizations adopt microservice design patterns and container technologies—such as Docker and Kubernetes—security teams are challenged to develop container security solutions that facilitate these infrastructure shifts. Container security needs to be integrated and continuous and support an enterprise’s overall security posture. 
+
+In general, continuous container security for the enterprise is about:
+-Securing the container pipeline and the application
+-Securing the container deployment environment(s) and infrastructure
+-Securing the containerized workloads at runtime
 
 ## Levels of Container Security
 
