@@ -7,7 +7,7 @@ A container is an isolated environment for your code. This means that acontainer
 ![VM and Container Deployments](https://www.veritis.com/wp-content/uploads/2019/09/virtual-machine-and-container-deployments.jpg)
 <p align="center">Differences between VM and Container Deployment </p>
 
-## What Is Container Security?
+## What is Container Security?
 
 ## Levels of Container Security
 
