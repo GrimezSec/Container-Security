@@ -24,7 +24,7 @@ Container security refers to measures and practices taken with the goal of ensur
 
 ## Container Security Practices
 • Use container-specific host OSs instead of general-purpose ones to reduce attack surfaces: A container-specific host OS is a minimalist OS designed to only run containers. Using these OSs greatly reduces attack surfaces, allowing fewer opportunities for your containers to be compromised.
-### Some of Container Specific Operating Systems
+Some of Container Specific Operating Systems:
 -[CoreOS](https://fedoraproject.org/coreos/)
 
 -[Flatcar](https://www.flatcar.org/)
