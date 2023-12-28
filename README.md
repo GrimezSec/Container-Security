@@ -14,7 +14,7 @@ A container is an isolated environment for your code. This means that acontainer
 
 Container security refers to measures and practices taken with the goal of ensuring the safety and integrity of containers. Container security comprises everything from the applications inside the containers to the infrastructure they run on. Base image security and quality are critical to ensure that any derivative images come from a trusted source. Build security in your container pipeline by gathering trusted images, managing access with the use of a private registry, integrating security testing and automating deployment, and continuously defending your infrastructure. Container hardening is the process of using container scanning tools to detect possible vulnerabilities and addressing them to minimize the risk of attack.
  
- Robust container security reduces the risk of deploying a container that contains a security flaw or malicious code into a production environme
+ Robust container security reduces the risk of deploying a container that contains a security flaw or malicious code into a production environment
 
 ## Container Security Standarts
 1. CIS Docker Benchmark: Developed by the Center for Internet Security (CIS), this benchmark provides a comprehensive set of guidelines for securing Docker containers. It covers areas like container runtime, Docker daemon configuration, image security, container networking, and logging.
@@ -30,6 +30,10 @@ Container security refers to measures and practices taken with the goal of ensur
 6. ISO/IEC Standards: While not specific to Docker, ISO/IEC standards related to information security (like ISO/IEC 27001) provide a broad framework that can be applied to Docker environments.
 
 ## Types of Container Security Solutions
+### Container Monitoring Solutions
+### Container Scanners
+### Application-Level Scanning: SCA, SAST, DAST
+### Container Networking
 
 ## Core Threats
    1. Data Breaches: Container security often revolves around data protection. Data breaches occur when malicious users or processes gain unauthorized access to sensitive data stored within containers.
@@ -75,6 +79,17 @@ Some of Container Specific Operating Systems:
 • Use container-aware runtime defense tools: Deploy and use a dedicated container security solution capable of monitoring the container environment and providing precise detection of anomalous and malicious activity within it.
 
 ## Container Security Architecture
+• Container Build Environment (CI/CD)
+The container build environment must include automated tests to ensure that container images do not include outdated or insecure libraries or open source components. The continuous integration / continuous delivery (CI/CD) infrastructure itself must also be secured to avoid supply chain attacks. Unauthorized access to build or deployment systems could cause threat actors to inject malicious components into the container environment.
+
+• Container Registries
+A container registry is a repository that stores container images. Registries are central to container security because they allow development teams to secure and store container images while scanning them for vulnerabilities. Organizations should treat images as artifacts to ensure their immutability and prevent the introduction of untested or insecure configuration changes into the production environment. This approach also allows organizations to replace or roll back high-risk containers quickly. 
+
+• Container Runtime Environments
+Releasing a container into a runtime environment presents several new security risks. Organizations must implement security policies to govern container behavior at runtime, ensuring administrators receive alerts when a container violates a policy. Administrators must also monitor and manage the resources used by containers to ensure the technology stack is not vulnerable to attack.
+
+• Container Orchestration
+The container orchestration environment, usually Kubernetes, is one of the most crucial components of container security. Container orchestration tools help manage complex container environments, allowing teams to predictably run and scale their environments. However, the complexity of a container environment can make it an attractive target for attackers, who can exploit misconfigurations to compromise nodes or other infrastructure elements. By compromising a single node, attackers can gain access to additional nodes or even compromise the entire cluster.
 
 # Container Security Checklist
 
