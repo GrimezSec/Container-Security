@@ -7,6 +7,9 @@ A container is an isolated environment for your code. This means that acontainer
 ![VM and Container Deployments](https://www.veritis.com/wp-content/uploads/2019/09/virtual-machine-and-container-deployments.jpg)
 <p align="center">Differences between VM and Container Deployment </p>
 
+![image](https://github.com/GrimezSec/Container-Security/assets/128565483/fd2bbc26-c6a6-4e49-9250-2bcc52b17313)
+<p align="center">Container Technology Architecture Tiers and Components </p>
+
 ## What is Container Security?
 
 As organizations adopt microservice design patterns and container technologies such as Docker and Kubernetes security teams are challenged to develop container security solutions that facilitate these infrastructure shifts. Container security needs to be integrated and continuous and support an enterprise’s overall security posture. 
