@@ -111,6 +111,10 @@ Some of Container Specific Operating Systems:
 
 ## Secure Workloads
 ## Application Testing (SCA - SAST - DAST - SBOM)
+•SCA: Software Composition Analysis (SCA) is an application security methodology in which development teams can quickly track and analyze any open source component brought into a project. Simply put, SCA is used to scan your dependencies for security vulnerabilities.
+•SAST: Static application security testing (SAST), or static analysis, is a testing methodology that analyzes source code to find security vulnerabilities that make your organization’s applications susceptible to attack. SAST scans an application before the code is compiled. It’s also known as white box testing.
+•DAST: Dynamic application security testing (DAST) is a type of black-box testing that checks your application from the outside. Software systems rely on inputs and outputs to operate. A DAST tool uses these to check for security problems while the software is actually running
+•SBOM: Software Bill of Materials (SBOM) is a list of all the components that are used in a software application. The SBOM helps identify any vulnerabilities and potential security risks in the software supply chain.
 ## Container Networking
 ## Common Mistakes to Avoid
 ## Dockerfile / Docker Container Testing
