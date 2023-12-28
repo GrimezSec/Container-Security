@@ -12,12 +12,9 @@ A container is an isolated environment for your code. This means that acontainer
 
 ## What is Container Security?
 
-As organizations adopt microservice design patterns and container technologies such as Docker and Kubernetes security teams are challenged to develop container security solutions that facilitate these infrastructure shifts. Container security needs to be integrated and continuous and support an enterprise’s overall security posture. 
-
-In general, continuous container security for the enterprise is about:
-- Securing the container pipeline and the application
-- Securing the container deployment environment(s) and infrastructure
-- Securing the containerized workloads at runtime
+Container security refers to measures and practices taken with the goal of ensuring the safety and integrity of containers. Container security comprises everything from the applications inside the containers to the infrastructure they run on. Base image security and quality are critical to ensure that any derivative images come from a trusted source. Build security in your container pipeline by gathering trusted images, managing access with the use of a private registry, integrating security testing and automating deployment, and continuously defending your infrastructure. Container hardening is the process of using container scanning tools to detect possible vulnerabilities and addressing them to minimize the risk of attack.
+ 
+ Robust container security reduces the risk of deploying a container that contains a security flaw or malicious code into a production environme
 
 ## Levels of Container Security
 
