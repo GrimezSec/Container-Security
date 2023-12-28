@@ -21,7 +21,7 @@ Container security refers to measures and practices taken with the goal of ensur
 ## Types of Container Security Solutions
 
 ## Core Threats
-    1. Data Breaches: Container security often revolves around data protection. Data breaches occur when malicious users or processes gain unauthorized access to sensitive data stored within containers.
+   1. Data Breaches: Container security often revolves around data protection. Data breaches occur when malicious users or processes gain unauthorized access to sensitive data stored within containers.
     2. Insecure Base Images: Using outdated or unpatched base images increases the risk of vulnerabilities being introduced into the container. This can potentially allow attackers to compromise the container's security.
     3. Untrusted Image Registries: When containers are pulled from untrusted registries, there is a risk that malicious images may be introduced into the container environment.
     4. Container Escape Vulnerabilities: Container escape vulnerabilities allow attackers to break out of the container and gain access to the host system.
