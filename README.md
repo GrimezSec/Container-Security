@@ -16,7 +16,18 @@ Container security refers to measures and practices taken with the goal of ensur
  
  Robust container security reduces the risk of deploying a container that contains a security flaw or malicious code into a production environme
 
-## Levels of Container Security
+## Container Security Standarts
+1. CIS Docker Benchmark: Developed by the Center for Internet Security (CIS), this benchmark provides a comprehensive set of guidelines for securing Docker containers. It covers areas like container runtime, Docker daemon configuration, image security, container networking, and logging.
+
+2. NIST Guidelines: The National Institute of Standards and Technology (NIST) offers guidelines for container security in its Special Publication (SP) 800-190. This document provides insights into container security challenges and best practices.
+
+3. Docker Security Best Practices: Docker Inc. also provides its own set of security best practices. These guidelines are more practical and tailored to everyday use of Docker.
+
+4. PCI DSS and HIPAA for Compliance: If you're working in environments that require compliance with standards like PCI DSS for payment processing or HIPAA for healthcare information, there are specific guidelines for using containers securely in these environments.
+
+5. OWASP Guidelines: The Open Web Application Security Project (OWASP) also offers resources and tools for securing your Docker containers, especially from an application security perspective.
+
+6. ISO/IEC Standards: While not specific to Docker, ISO/IEC standards related to information security (like ISO/IEC 27001) provide a broad framework that can be applied to Docker environments.
 
 ## Types of Container Security Solutions
 
