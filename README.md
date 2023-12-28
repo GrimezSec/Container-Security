@@ -22,15 +22,24 @@ Container security refers to measures and practices taken with the goal of ensur
 
 ## Core Threats
    1. Data Breaches: Container security often revolves around data protection. Data breaches occur when malicious users or processes gain unauthorized access to sensitive data stored within containers.
-    2. Insecure Base Images: Using outdated or unpatched base images increases the risk of vulnerabilities being introduced into the container. This can potentially allow attackers to compromise the container's security.
-    3. Untrusted Image Registries: When containers are pulled from untrusted registries, there is a risk that malicious images may be introduced into the container environment.
-    4. Container Escape Vulnerabilities: Container escape vulnerabilities allow attackers to break out of the container and gain access to the host system.
-    5. Misconfigurations: Containers often run with excessive privileges or weak security configurations. Misconfigurations in these areas can potentially allow attackers to compromise the container's security.
-    6. Lack of Regulatory Compliance: Organizations must comply with various regulatory and compliance requirements. Non-compliance with these regulations can lead to security breaches and other consequences.
-    7. Insider Threats: Containers often operate in highly privileged environments, making them particularly susceptible to insider threats. Unauthorized insiders with access to containers could potentially exploit vulnerabilities to compromise security.
-    8. Third-Party Vulnerabilities: Third-party components integrated into containers can introduce vulnerabilities that attackers could exploit. These components often have a smaller user base compared to core components, increasing the risk of such vulnerabilities.
-    9. Complexity: Containers can become complex, leading to a high risk of vulnerabilities being introduced into the system. The more complex a container environment becomes, the higher the risk of a security breach.
-    10. Container Orchestration and Service Mesh: While these technologies help automate and manage container operations, they can introduce vulnerabilities and increase the risk of a security breach.
+      
+   2. Insecure Base Images: Using outdated or unpatched base images increases the risk of vulnerabilities being introduced into the container. This can potentially allow attackers to compromise the container's security.
+  
+   3. Untrusted Image Registries: When containers are pulled from untrusted registries, there is a risk that malicious images may be introduced into the container environment.
+
+   4. Container Escape Vulnerabilities: Container escape vulnerabilities allow attackers to break out of the container and gain access to the host system.
+      
+   5. Misconfigurations: Containers often run with excessive privileges or weak security configurations. Misconfigurations in these areas can potentially allow attackers to compromise the container's security.
+    
+   6. Lack of Regulatory Compliance: Organizations must comply with various regulatory and compliance requirements. Non-compliance with these regulations can lead to security breaches and other consequences.
+    
+   7. Insider Threats: Containers often operate in highly privileged environments, making them particularly susceptible to insider threats. Unauthorized insiders with access to containers could potentially exploit vulnerabilities to compromise security.
+    
+   8. Third-Party Vulnerabilities: Third-party components integrated into containers can introduce vulnerabilities that attackers could exploit. These components often have a smaller user base compared to core components, increasing the risk of such vulnerabilities.
+    
+   9. Complexity: Containers can become complex, leading to a high risk of vulnerabilities being introduced into the system. The more complex a container environment becomes, the higher the risk of a security breach.
+    
+   10. Container Orchestration and Service Mesh: While these technologies help automate and manage container operations, they can introduce vulnerabilities and increase the risk of a security breach.
 
 
 
