@@ -168,6 +168,12 @@ The container orchestration environment, usually Kubernetes, is one of the most 
 •SBOM: Software Bill of Materials (SBOM) is a list of all the components that are used in a software application. The SBOM helps identify any vulnerabilities and potential security risks in the software supply chain.
 
 ## Container Networking
+Container network security proactively restricts unwanted communication and prevents threats from attacking your applications once deployed.
+
+Organizations can use containerized next-generation firewalls to protect their containers from network-based threats. Most network based attacks are agnostic of application’s form factor. Therefore, containerized applications are subject to many of the same network-based attacks that infect bare metal and VM based apps, such as cryptojacking, ransomware, BotNetC2, and many more. Containerized next-generation firewalls stop malware from entering and spreading within the cluster, while also preventing malicious outbound connections used in data exfiltration and command-and-control (C2) attacks. While shift-left security tools provide deploy-time protection against known vulnerabilities, containerized next-gen firewalls provide protection against unknown and unpatched vulnerabilities.
+
+Microsegementation tools coupled with next-gen firewalls provide comprehensive container network security. Identity-based microsegmentation helps restrict the communication between applications at layer-3/4 while containerized next-gen firewalls perform layer-7 deep packet inspection and scan all the allowed traffic to identify and prevent known and unknown threats.
+
 ## Common Mistakes to Avoid
 ## Dockerfile / Docker Container Testing
 
