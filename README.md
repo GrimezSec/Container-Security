@@ -220,24 +220,31 @@ Organizations can use containerized next-generation firewalls to protect their c
 Microsegementation tools coupled with next-gen firewalls provide comprehensive container network security. Identity-based microsegmentation helps restrict the communication between applications at layer-3/4 while containerized next-gen firewalls perform layer-7 deep packet inspection and scan all the allowed traffic to identify and prevent known and unknown threats.
 
 ## Dockerfile / Docker Container Testing
-Here's a breakdown of the differences between Dockerfile and Docker container testing, along with how to perform each:
 
 Dockerfile Testing
 
 Focus: Ensures the Dockerfile itself is well-structured, produces the intended image, and includes necessary security measures.
+
 Timing: Conducted during the image building stage, before deployment.
+
 Methods:
-        Linting: Analyzes Dockerfile syntax for errors, best practices, and potential vulnerabilities. Tools: Hadolint, Dockle.
-        Static Analysis: Scans for vulnerabilities in base images and dependencies without executing the image. Tools: Snyk, Anchore.
+
+   Linting: Analyzes Dockerfile syntax for errors, best practices, and potential vulnerabilities. Tools: Hadolint, Dockle.
+        
+   Static Analysis: Scans for vulnerabilities in base images and dependencies without executing the image. Tools: Snyk, Anchore.
 
 Docker Container Testing
+
 Focus: Verifies the functionality and behavior of a running container, including its interactions with other services and the environment.
+
 Timing: Conducted after the image is built and deployed, either in a test environment or production.
+
 Methods:
-        Unit Testing: Tests individual components or functions within the containerized application.
-        Integration Testing: Validates interactions between multiple containers or services.
-        End-to-End Testing: Simulates real-world user scenarios to ensure overall system functionality.
-        Security Testing: Identifies vulnerabilities in running containers. Tools: Clair, Trivy.
+
+   Unit Testing: Tests individual components or functions within the containerized application.
+   Integration Testing: Validates interactions between multiple containers or services.
+   End-to-End Testing: Simulates real-world user scenarios to ensure overall system functionality.
+   Security Testing: Identifies vulnerabilities in running containers. Tools: Clair, Trivy.
 
 
 
