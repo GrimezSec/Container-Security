@@ -49,23 +49,35 @@ Secure container networking involves restricting unwanted communication and prev
 Secure container networking involves restricting unwanted communication and preventing threats from attacking your applications once deployed. Here are some key strategies to achieve this:
 
 1. Network Isolation:
+   
   • Microsegmentation: Divide your container network into smaller, logically isolated segments based on application needs and security requirements. This limits the attack surface and prevents lateral movement of threats within the network.
+  
  • Container Network Policies (CNPs): Define granular network access rules for each container or group of containers. These policies specify which containers can communicate with each other and what protocols and ports they can use.
 
 2. Encryption:
+   
 • Encrypt sensitive data: Use Transport Layer Security (TLS) or similar encryption protocols to protect sensitive data in transit between containers and other services.
+
 • Encrypt container images: Consider encrypting container images at rest to prevent unauthorized access to sensitive information they might contain.
 
 3. Authentication and Authorization:
+   
 • Implement mutual TLS (mTLS): Require two-way authentication between containers and other services to ensure only authorized communication takes place.
+
 • Role-Based Access Control (RBAC): Grant access to container resources based on user roles and permissions. This minimizes the risk of unauthorized access and privilege escalation.
+
 4. Monitoring and Logging:
+   
 • Continuously monitor your container network: Look for suspicious activity, such as unusual traffic patterns or unauthorized access attempts.
+
 • Enable logging for all network activity: This will provide valuable data for investigating security incidents and identifying potential vulnerabilities.
 
 5. Tools and Technologies:
+
 • Next-generation firewalls: Deploy containerized next-generation firewalls to filter traffic and block malicious activity at the network layer.
+
 • Security information and event management (SIEM) systems: Collect and analyze security logs from your container environment to identify potential threats and security incidents.
+
 • Service mesh: Utilize service mesh technologies like Istio to provide advanced security features like mTLS, traffic encryption, and access control for containerized microservices.
 
 ## Core Threats
