@@ -221,7 +221,7 @@ Microsegementation tools coupled with next-gen firewalls provide comprehensive c
 
 ## Dockerfile / Docker Container Testing
 
-Dockerfile Testing
+**Dockerfile Testing**
 
 Focus: Ensures the Dockerfile itself is well-structured, produces the intended image, and includes necessary security measures.
 
@@ -229,11 +229,11 @@ Timing: Conducted during the image building stage, before deployment.
 
 Methods:
 
-   Linting: Analyzes Dockerfile syntax for errors, best practices, and potential vulnerabilities. Tools: Hadolint, Dockle.
+   •Linting: Analyzes Dockerfile syntax for errors, best practices, and potential vulnerabilities. Tools: Hadolint, Dockle.
         
-   Static Analysis: Scans for vulnerabilities in base images and dependencies without executing the image. Tools: Snyk, Anchore.
+   •Static Analysis: Scans for vulnerabilities in base images and dependencies without executing the image. Tools: Snyk, Anchore.
 
-Docker Container Testing
+**Docker Container Testing**
 
 Focus: Verifies the functionality and behavior of a running container, including its interactions with other services and the environment.
 
@@ -241,12 +241,35 @@ Timing: Conducted after the image is built and deployed, either in a test enviro
 
 Methods:
 
-   Unit Testing: Tests individual components or functions within the containerized application.
-   Integration Testing: Validates interactions between multiple containers or services.
-   End-to-End Testing: Simulates real-world user scenarios to ensure overall system functionality.
-   Security Testing: Identifies vulnerabilities in running containers. Tools: Clair, Trivy.
+   •Unit Testing: Tests individual components or functions within the containerized application.
+   
+   •Integration Testing: Validates interactions between multiple containers or services.
+   
+   •End-to-End Testing: Simulates real-world user scenarios to ensure overall system functionality.
+   
+   •Security Testing: Identifies vulnerabilities in running containers. Tools: Clair, Trivy.
 
+**How to Perform Testing:**
 
+Dockerfile Testing:
+
+•Choose tools: Select linters and static analyzers suitable for your requirements.
+
+•Integrate into CI/CD: Automate Dockerfile testing within your CI/CD pipeline to catch issues early.
+
+•Review results: Address any errors, warnings, or vulnerabilities identified by the tools.
+
+Docker Container Testing:
+
+ •Write test cases: Cover various aspects of container functionality and interactions.
+    
+ •Choose tools: Select appropriate testing frameworks and security scanners.
+    
+ •Set up a testing environment: Replicate production environment for realistic testing.
+    
+ •Run tests: Execute test cases and monitor results.
+    
+ •Address issues: Fix any failures or vulnerabilities found during testing.
 
 # Container Security Tools
 
