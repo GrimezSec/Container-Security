@@ -2,8 +2,8 @@
 Collection of workflows, tools and informations about Container Security
 
 # Introduction
-## What is a Container?
-A container is an isolated environment for your code. This means that acontainer has no knowledge of your operating system, or your files. Containers have everything that your code needs in order to run, down to a base operating system. But containers and applications must configurated to working together.
+## What is a Container?https://github.com/GrimezSec/Container-Security
+A container is an isolated environment for your code. This means that acontainer has no knowledge of your operating system, or your files. Containers have everything that your code needs in order to run, down to a base operating system. But containers and applications must configured to working together.
 ![VM and Container Deployments](https://www.veritis.com/wp-content/uploads/2019/09/virtual-machine-and-container-deployments.jpg)
 <p align="center">Differences between VM and Container Deployment </p>
 
@@ -31,8 +31,19 @@ Container security refers to measures and practices taken with the goal of ensur
 
 ## Types of Container Security Solutions
 ### Container Monitoring Solutions
+Container monitoring is a good solution for security and reliability. Container monitoring tools can give informations about performance and usages to IT Team / DevOps Team. Also monitoring tools offers real-time log streaming, anomaly detection, alerting and other capabilities like usual security solutions.
 ### Container Scanners
+Container scanner tools help identify vulnerabilities, misconfigurations, and other security issues within container images and their runtime environments. Integrating container scanner tools into the DevSecOps pipeline enables continuous security checks, reducing the risk of deploying vulnerable containerized applications into production environments.
+
 ### Application-Level Scanning: SCA, SAST, DAST
+•SCA: Software Composition Analysis (SCA) is an application security methodology in which development teams can quickly track and analyze any open source component brought into a project. Simply put, SCA is used to scan your dependencies for security vulnerabilities.
+
+•SAST: Static application security testing (SAST), or static analysis, is a testing methodology that analyzes source code to find security vulnerabilities that make your organization’s applications susceptible to attack. SAST scans an application before the code is compiled. It’s also known as white box testing.
+
+•DAST: Dynamic application security testing (DAST) is a type of black-box testing that checks your application from the outside. Software systems rely on inputs and outputs to operate. A DAST tool uses these to check for security problems while the software is actually running
+
+•SBOM: Software Bill of Materials (SBOM) is a list of all the components that are used in a software application. The SBOM helps identify any vulnerabilities and potential security risks in the software supply chain.
+
 ### Container Networking
 
 ## Core Threats
@@ -177,7 +188,23 @@ Microsegementation tools coupled with next-gen firewalls provide comprehensive c
 ## Common Mistakes to Avoid
 ## Dockerfile / Docker Container Testing
 
+
+
 # Container Security Tools
+
+## Container Monitoring Tools
+| Name | URL | Description |
+| :---------- | :---------- | :---------- |
+| **Dynatrace** |[Dynatrace](https://www.dynatrace.com/)| APM Solution |
+| **Datadog** |[Datadog](https://www.datadoghq.com/)| Cloud-based monitoring platform for Docker|
+| **Sematext** |[Sematext](https://sematext.com/)| Docker monitoring tool|
+| **Prometheus** |[Prometheus](https://prometheus.io/)| Monitoring and alerting toolkit|
+| **Grafana** |[Grafana](https://grafana.com/)|Analytics and monitoring platform  |
+| **Elasticsearch** |[Elasticsearch](https://www.elastic.co/)| Search and analytics engine |
+| **cAdvisor** |[cAdvisor](https://github.com/google/cadvisor)| A lightweight tool offering real-time metrics on resource usage and performance for Docker containers.|
+
+
+## Container Scanning Tools
 
 | Name | URL | Description |
 | :---------- | :---------- | :---------- |
